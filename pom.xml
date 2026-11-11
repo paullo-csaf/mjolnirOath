@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.paullo-csaf</groupId>
-  <artifactId>pqc-vault</artifactId>
+  <artifactId>mjolniroath</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <properties>
@@ -19,6 +19,11 @@
       <artifactId>junit-jupiter</artifactId>
       <version>5.11.4</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.postgresql</groupId>
+        <artifactId>postgresql</artifactId>
+        <version>42.7.2</version>
     </dependency>
   </dependencies>
 
